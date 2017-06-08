@@ -1,0 +1,81 @@
+{{ include("/VIEW_PATH/center/header.html") }}
+<div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>基本 <small>分类，查找</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up">
+
+                            </i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="table_data_tables.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="table_data_tables.html#">选项1</a>
+                            </li>
+                            <li><a href="table_data_tables.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                    <div class="ibox-content">
+
+                    <table id="table"></table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('#table').bootstrapTable({
+        url: '/tag/taglist/',
+        contentType: "application/x-www-form-urlencoded",//必须要有！！！！
+        pagination: true, //分页
+        pageNumber:1,
+        search: false, //显示搜索框
+        sidePagination: "server",
+        queryParams:queryParams,
+        columns: [{
+            field: 'id',
+            title: 'ID',
+        }, {
+            field: 'description',
+            title: '描述'
+        }, {
+            field: 'tag',
+            title: '标签'
+        }, {
+            field: 'href',
+            title: '链接地址',
+            formatter:geturl
+        }, {
+            field: 'update_time',
+            title: '更新时间',
+            formatter:actionFormatter
+        },]
+    });
+    function queryParams(params) {
+        return {
+            pageSize: params.limit,
+            pageNumber: params.pageNumber,
+            pageOffset: params.offset,
+            name:$("input[name='openUserName']").val(),
+        };
+    }
+    function geturl(value,row,index) {
+        var html  = "<a href="+value+">"+value+"</a>";
+        return html;
+    }
+    function actionFormatter(value,row,index) {
+        return new Date(parseInt(value) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
+    }
+    </script>
+{{ include("/VIEW_PATH/center/footer.html") }}
+

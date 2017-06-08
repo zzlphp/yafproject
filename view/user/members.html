@@ -1,0 +1,96 @@
+{{ include("/VIEW_PATH/center/header.html") }}
+<div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+
+                <div class="ibox-content">
+                    <div class="row m-b-sm m-t-sm">
+                        <div class="col-md-1">
+                            <button type="button" id="loading-example-btn" class="btn btn-white btn-sm"><i class="fa fa-refresh"></i> 刷新</button>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="input-group">
+                                <input style="float:left;margin-left:5px;width:30%" type="text" placeholder="请输入姓名" id="name" name="name" class="search-input input-sm form-control">
+                                <input style="float:left;margin-left:5px;width:30%" type="text" placeholder="请输入身份证号" id="code" name="code" class="search-input input-sm form-control">
+                                <span class="input-group-btn">
+                                        <button type="button" class="btn btn-sm btn-primary search"> 搜索</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <table id="table"></table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('#table').bootstrapTable({
+        url: '/user/memeberlist/',
+        contentType: "application/x-www-form-urlencoded",//必须要有！！！！
+        pagination: true, //分页
+        pageNumber:1,
+        search: false, //显示搜索框
+        sidePagination: "server",
+        queryParams:queryParams,
+        columns: [{
+            field: 'id',
+            title: 'ID',
+            sortable: false
+        }, {
+            field: 'name',
+            title: '姓名',
+            sortable: true
+        }, {
+            field: 'phone',
+            title: '手机号',
+            sortable: false
+        }, {
+            field: 'email',
+            title: '邮箱',
+            sortable: false
+        }, {
+            field: 'code',
+            title: '身份证号',
+            sortable: false
+        }, {
+            field: 'birthday',
+            title: '出生日期',
+            sortable: false
+        }, {
+            field: 'zip',
+            title: '邮编',
+            sortable: false
+        } , {
+            field: 'tel',
+            title: '电话',
+            sortable: false
+        } , {
+            field: 'address',
+            title: '地址',
+            sortable: false
+        } , {
+            field: 'time',
+            title: '更新时间',
+            sortable: false
+        } ]
+    });
+    function queryParams(params) {
+        return {
+            pageSize: params.limit,
+            pageNumber: params.pageNumber,
+            pageOffset: params.offset,
+            name:$("#name").val(),
+            code:$("#code").val(),
+        };
+    }
+    function _search() {
+        $('#table').bootstrapTable('refresh', {url: '/user/memeberlist/'});
+    }
+    $(".search").click(function () {
+        $('#table').bootstrapTable('refresh');
+    });
+    </script>
+{{ include("/VIEW_PATH/center/footer.html") }}
+

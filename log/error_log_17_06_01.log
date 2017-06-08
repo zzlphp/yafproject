@@ -1,0 +1,39 @@
+[2017-06-01 09:01:35] 172.17.0.1 /api/chat/test
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/modules/Api/controllers/Chat.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:01:48] 172.17.0.1 /api/wechat/test
+INFO [Log\Log.info] error:There is no method testAction in WechatController|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:02:46] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:03:23] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:03:40] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:04:06] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:05:07] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:06:06] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:07:14] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:08:01] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:08:37] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:09:23] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-01 09:10:01] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+

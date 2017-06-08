@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>时间表</title>
+
+<link href="/static/css/timeline.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/static/js/modernizr.js"></script>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<section id="cd-timeline" class="cd-container">
+		{{BEGIN blog_list}}
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img {{IF $_num%2==0}}cd-picture{{ELSE}}cd-movie{{END}}">
+				<!--<img src="/images/cd-icon-picture.svg" alt="Picture">-->
+			</div><!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>{{$title}}</h2>
+				<p>{{$excerpt}}</p>
+				<a href="{{$url}}" target="_blank" class="cd-read-more">阅读更多</a>
+				<span class="cd-date">{{$date}}</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+		{{END}}
+	</section> <!-- cd-timeline -->
+	
+<script>
+$(function(){
+	var $timeline_block = $('.cd-timeline-block');
+	//hide timeline blocks which are outside the viewport
+	$timeline_block.each(function(){
+		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		}
+	});
+	//on scolling, show/animate timeline blocks when enter the viewport
+	$(window).on('scroll', function(){
+		$timeline_block.each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+			}
+		});
+	});
+});
+</script>
+<script type="text/javascript">
+	var _faq = _faq || {};
+	(function() {
+		var u="http://api.zzlphp.com/";
+		_faq["trackerUrl"] = u+'zzl.php';
+		_faq["siteId"] = 1;
+		var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'zzl.js'; s.parentNode.insertBefore(g,s);
+	})();
+</script>
+
+</body>
+</html>

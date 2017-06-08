@@ -1,0 +1,9 @@
+[2017-06-03 13:09:08] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-03 13:09:13] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-03 13:09:30] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+

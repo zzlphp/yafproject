@@ -1,0 +1,28 @@
+{{ include("/VIEW_PATH/center/header.html") }}
+<style>
+    .box{width:100%}
+</style>
+<div class="wrapper wrapper-content  animated fadeInRight blog">
+    <div class="row">
+        <div class="box">
+            {{BEGIN blog_list}}
+            <div class="ibox">
+                <div class="ibox-content">
+                    <a href="/center/blogdetail/id/{{$id}}" class="btn-link">
+                        <h2>
+                            {{$title}}
+                        </h2>
+                    </a>
+                    <div class="small m-b-xs">
+                        <strong>{{$author.name}}</strong> <span class="text-muted"><i class="fa fa-clock-o"></i>{{this::time_tran($date)}}</span>
+                    </div>
+                    <p>
+                        {{$excerpt}}
+                    </p>
+                </div>
+            </div>
+            {{END}}
+        </div>
+    </div>
+</div>
+{{ include("/VIEW_PATH/center/footer.html") }}

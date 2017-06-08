@@ -1,0 +1,52 @@
+{{ include("/VIEW_PATH/center/header.html") }}
+<div class="wrapper wrapper-content">
+    <div class="row animated fadeInRight">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>基本</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="timeline.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="timeline.html#">选项1</a>
+                            </li>
+                            <li><a href="timeline.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ibox-content timeline">
+                    {{BEGIN list}}
+                    <div class="timeline-item">
+                        <div class="row">
+                            <div class="col-xs-3 date">
+                                <i class="fa fa-briefcase"></i> {{this::dateFormat($time)}}
+                                <br>
+                                <!--<small class="text-navy">{{this::time_tran($time)}}</small>-->
+                            </div>
+                            <div class="col-xs-7 content no-top-border">
+                                <p class="m-b-xs"><strong>{{$url}}</strong>
+                                </p>
+                                <p>IP:{{$ip}}</p>
+                                <p>Controller:{{$controller}}</p>
+                                <p>Action:{{$action}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{END}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ include("/VIEW_PATH/center/footer.html") }}
+

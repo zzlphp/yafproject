@@ -1,0 +1,15 @@
+[2017-05-27 13:49:36] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-05-27 13:53:26] 172.17.0.1 /api/wechat/dingyuehao
+INFO [Log\Log.info] error:Undefined index: signature|file:/home/wwwroot/default/php7/application/modules/Api/controllers/Wechat.php|line:28
+
+[2017-05-27 13:53:27] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-05-27 14:02:53] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-05-27 14:03:27] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+

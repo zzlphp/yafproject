@@ -1,0 +1,159 @@
+[2017-06-07 02:59:27] 172.17.0.1 /images/cd-icon-picture.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:27] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:28] 172.17.0.1 /images/cd-icon-movie.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:28] 172.17.0.1 /images/cd-icon-picture.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:28] 172.17.0.1 /images/cd-icon-location.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:29] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:59] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:59] 172.17.0.1 /images/cd-icon-picture.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:59] 172.17.0.1 /images/cd-icon-movie.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 02:59:59] 172.17.0.1 /images/cd-icon-location.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:00] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:21] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:21] 172.17.0.1 /images/cd-icon-picture.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:21] 172.17.0.1 /images/cd-icon-movie.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:21] 172.17.0.1 /images/cd-icon-location.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:22] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:39] 172.17.0.1 /images/cd-icon-movie.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:39] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:40] 172.17.0.1 /images/cd-icon-picture.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:40] 172.17.0.1 /images/cd-icon-location.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:40] 172.17.0.1 /images/cd-icon-movie.svg
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Images.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:00:41] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:01:03] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:01:04] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:02:06] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:02:06] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:03:05] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:03:06] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:03:24] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:03:25] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:03:28] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:04:30] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:04:31] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:04:52] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:04:53] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:05:45] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:05:46] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:06:38] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:06:39] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:06:55] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:06:56] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:07:21] 172.17.0.1 /static/js/jquery-1.8.3.min.js
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Static.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:07:22] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:07:22] 172.17.0.1 /index.js.map
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Index.js.map.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:07:53] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:07:54] 172.17.0.1 /index.js.map
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Index.js.map.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:08:02] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:09:29] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:10:11] 172.17.0.1 /index.js.map
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Index.js.map.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:10:11] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:45:29] 172.17.0.1 /index.js.map
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Index.js.map.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:45:29] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+
+[2017-06-07 03:45:33] 172.17.0.1 /favicon.ico
+INFO [Log\Log.info] error:Failed opening controller script /home/wwwroot/default/php7/application/controllers/Favicon.ico.php: No such file or directory|file:/home/wwwroot/default/php7/public/index.php|line:15
+

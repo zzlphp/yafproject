@@ -1,0 +1,207 @@
+{{ include("/VIEW_PATH/center/header.html") }}
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>面积图 <small>自定义颜色</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="graph_morris.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="graph_morris.html#">选项1</a>
+                            </li>
+                            <li><a href="graph_morris.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content" style="position: relative">
+                    <div id="morris-area-chart"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>柱状图</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="graph_morris.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="graph_morris.html#">选项1</a>
+                            </li>
+                            <li><a href="graph_morris.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="morris-bar-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>线性图</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="graph_morris.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="graph_morris.html#">选项1</a>
+                            </li>
+                            <li><a href="graph_morris.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="morris-line-chart"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>环形图</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="graph_morris.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="graph_morris.html#">选项1</a>
+                            </li>
+                            <li><a href="graph_morris.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="morris-donut-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>简单线性图</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="graph_morris.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="graph_morris.html#">选项1</a>
+                            </li>
+                            <li><a href="graph_morris.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <div id="morris-one-line-chart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script language="JavaScript">
+    $(function () {
+        Morris.Line({
+            element: "morris-one-line-chart",
+            data: [{year: "2008", value: 5}, {year: "2009", value: 10}, {year: "2010", value: 8}, {
+                year: "2011",
+                value: 22
+            }, {year: "2012", value: 8}, {year: "2014", value: 10}, {year: "2015", value: 5}],
+            xkey: "year",
+            ykeys: ["value"],
+            resize: !0,
+            lineWidth: 4,
+            labels: ["Value"],
+            lineColors: ["#1ab394"],
+            pointSize: 5
+        }), Morris.Area({
+            element: "morris-area-chart",
+            data: {{$phone}},
+            xkey: "period",
+            ykeys: ["iphone", "ipad", "itouch"],
+            labels: ["iPhone", "iPad", "iPod Touch"],
+            pointSize: 2,
+            hideHover: "auto",
+            resize: !0,
+            lineColors: ["#87d6c6", "#54cdb4", "#1ab394"],
+            lineWidth: 2,
+            pointSize: 1
+        }), Morris.Donut({
+            element: "morris-donut-chart",
+            data: [{label: "A系列", value: 12}, {label: "B系列", value: 30}, {label: "C系列", value: 20}],
+            resize: !0,
+            colors: ["#87d6c6", "#54cdb4", "#1ab394"]
+        }), Morris.Bar({
+            element: "morris-bar-chart",
+            data: [{y: "2006", a: 60, b: 50}, {y: "2007", a: 75, b: 65}, {y: "2008", a: 50, b: 40}, {
+                y: "2009",
+                a: 75,
+                b: 65
+            }, {y: "2010", a: 50, b: 40}, {y: "2011", a: 75, b: 65}, {y: "2012", a: 100, b: 90}],
+            xkey: "y",
+            ykeys: ["a", "b"],
+            labels: ["A系列", "B系列"],
+            hideHover: "auto",
+            resize: !0,
+            barColors: ["#1ab394", "#cacaca"]
+        }), Morris.Line({
+            element: "morris-line-chart",
+            data: [{y: "2006", a: 100, b: 90}, {y: "2007", a: 75, b: 65}, {y: "2008", a: 50, b: 40}, {
+                y: "2009",
+                a: 75,
+                b: 65
+            }, {y: "2010", a: 50, b: 40}, {y: "2011", a: 75, b: 65}, {y: "2012", a: 100, b: 90}],
+            xkey: "y",
+            ykeys: ["a", "b"],
+            labels: ["A系列", "B系列"],
+            hideHover: "auto",
+            resize: !0,
+            lineColors: ["#54cdb4", "#1ab394"]
+        })
+    });
+
+</script>
+{{ include("/VIEW_PATH/center/footer.html") }}
